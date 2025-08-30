@@ -1,0 +1,257 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Modern Furniture</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: Arial, sans-serif; line-height: 1.6; background: #f4f4f9; color: #333; }
+
+    /* Navbar */
+    nav {
+      position: sticky;
+      top: 0;
+      background: #9b8a44;
+      padding: 15px;
+      text-align: center;
+      z-index: 1000;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 20px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+    nav a:hover { color: #ff9800; }
+
+    /* Hero Section */
+    header {
+      height: 100vh;
+      display:flex;
+      background: url("https://t3.ftcdn.net/jpg/16/08/20/20/360_F_1608202030_7s2R7kGNxLvarsnL6VQISWvBP99dpnho.jpg")repeat center center/cover;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      color: rgb(192, 205, 17);
+      text-shadow: 2px 2px 5px rgba(0,0,0,0.7);
+    }
+    header h1 { font-size: 3rem; }
+    header p { font-size: 1.2rem; margin: 20px 0; }
+    header button {
+      padding: 12px 25px;
+      border: none;
+      background: #c78727;
+      color: rgb(61, 42, 42);
+      font-size: 1rem;
+      cursor: pointer;
+      border-radius: 5px;
+      transition: 0.3s;
+    }
+    header button:hover { background: #e68900; }
+
+    /* Cards Section */
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 40px;
+    }
+    .card {
+      background: rgb(75, 161, 180);
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(23, 0, 0, 0.2);
+      padding: 20px;
+      text-align: center;
+      transition: transform 0.3s ease;
+    }
+    .card:hover { transform: translateY(-10px); }
+    .card h3 { margin-bottom: 15px; }
+
+    /* Contact Section */
+    .contact {
+      padding: 40px;
+      background: #333;
+      color: white;
+    }
+    .contact form {
+      max-width: 400px;
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+    }
+    .contact input, .contact textarea, .contact button {
+      margin: 10px 0;
+      padding: 10px;
+      border-radius: 5px;
+      border: none;
+      font-size: 1rem;
+    }
+    .contact input, .contact textarea { width: 100%; }
+    .contact button {
+      background: #ff9800;
+      color: white;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    .contact button:hover { background: #e68900; }
+
+    footer {
+      text-align: center;
+      padding: 15px;
+      background: #222;
+      color: #262525;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#Menu">Menu</a>
+    <a href="#Furniture design">Furniture design</a>
+    <a href="#Special discount">Special discount</a>
+    <a href="#About us">About us</a>
+    <a href="#contact us">contact us</a>
+  </nav>
+
+  <!-- Hero Section -->
+  <header id="home">
+    <h1>welcome's To</h1></h1>
+    <h1>Modern Furniture</h1></h1>
+    <h1>"Better Future Come True."</h1>
+    <button onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'});">Hire Me</button>
+  </header>
+
+ <section id="Menu">
+  <h2 style="text-align:center; padding:20px;">Menu</h2>
+  <div class="cards">
+    <!-- indoor alignes Card -->
+    <div class="card">
+      <img src="https://cb.scene7.com/is/image/Crate/CB_F21_UP_1_500_Hor_001/$web_plp_card$/240201114920/sofas.jpg"alt="sofas" style="width:100%; border-radius:10px;">
+      <h3>Sofas</h3>
+      </ul>
+    </div>
+    <!--home alignes -->
+    <div class="card">
+      <img src="https://www.shutterstock.com/image-illustration/set-four-different-beds-front-260nw-2315931463.jpg" alt="Beds" style="width:100%; border-radius:10px;">
+      <h3>Beds</h3>
+      </ul>
+    </div>
+    <!--home alignes -->
+    <div class="card">
+      <img src="https://www.ikea.com/ext/ingkadam/m/36fa89000ad85579/original/PH184912-crop001.JPG?f=s" alt="Chairs" style="width:100%; border-radius:10px;">
+      <h3>Chairs</h3>
+      </ul>
+    </div>
+    <!--Tables -->
+    <div class="card">
+      <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/coffee-table/w/9/k/53-0-mdf-99-0-25-0-grace-eltop-45-0-black-golden-original-imagmdez2uzhdhgh.jpeg?q=70" alt="Classic Tables" style="width:100%; border-radius:10px;">
+      <h3>CLassic Tables</h3>
+      </ul>
+    </div>
+    <!-- Dining sets-->
+    <div class="card">
+      <img src="https://m.media-amazon.com/images/I/81weoG6RQLL.jpg" alt="Dining sets" style="width:100%; border-radius:10px;">
+      <h3>dining sets</h3>
+      </ul>
+    </div>
+ </section>
+</html>
+ <section id="Furniture design">
+  <h2 style="text-align:center; padding:20px;">Furniture design</h2>
+  <div class="cards">
+ <section id="-Made in India-">
+  <h2 style="text-align:center; padding:20px;">-Made in india-</h2>
+  <div class="cards">
+     <h3>Sofa design</h3>
+     <h3> Upholstery quality is assessed by the fabric's weave, weight, and durability</h3>
+  </div>
+  <div class="cards">
+     <h3>Beds design</h3>
+     <h3>Companies like Vermont Furniture Designs and Vermont Woods Studios craft handmade, heirloom-quality beds using 100% solid wood, avoiding materials such as plywood, particle board, MDF, or veneers, which are common in lower-cost furniture.</h3>
+  </div>
+   <div class="cards">
+     <h3>Chairs design</h3>
+     <h3>High-quality wooden furniture design chairs are characterized by durable materials, expert craftsmanship, and thoughtful ergonomics.</h3>
+  </div>
+  <div class="cards">
+     <h3>Tables design</h3>
+     <h3>The table should feel solid and heavy, as dense hardwoods like white oak, American maple, American walnut, cherry, and Honduran mahogany are preferred for durability and resistance to dents compared to softer woods like pine.</h3>
+  </div>
+  <div class="cards">
+     <h3>Dining design</h3>
+     <h3>Most of our dining tables are crafted from both solid wood and veneers, and we use a variety of woods including maple, birch, poplar, cherry, and oak</h3>
+  </div>
+   <section id="Special discount">
+  <h2 style="text-align:center; padding:20px;">Special discount </h2>
+  <div class="cards">
+     <h3>Sofa offer(15% discount)---22000/-</h3>
+  </div>
+  <div class="cards">
+     <h3>Beds offer(25% discount)---42000/-</h3>
+  </div>
+  <div class="cards">
+     <h3>Chairs offer(20% discount)---12000/-</h3>
+  </div>
+  <div class="cards">
+     <h3>Tables offer(30% discount)---8000/-</h3>
+  </div>
+  <div class="cards">
+     <h3>Dining offer(25% discount)---18000/-</h3>
+  </div>
+  <section id="About us">
+  <h2 style="text-align:center; padding:20px;">About us</h2>
+  <div class="cards">
+  </div>
+   <section id=Mon-Fri--10Am-10Pm>
+  <h2 style="text-align:center; padding:20px;">"Mon-Fri--10Am-10PM</h2>
+  <div class="cards">
+  </div>
+  
+    <section id="contact us" class="contact us">
+    <h2 style="text-align:center;">Contact To Modern Furniture</h2>
+    <form onsubmit="return validateForm()">
+      <input type="text" id="name" placeholder="Your Name" required>
+      <input type="email" id="email" placeholder="Your Email" required>
+      <input type="Number" id="Number" placeholder="Your Number" required>
+      <textarea id="message" rows="4" placeholder="Your Ratting ;" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  
+  <footer>
+    <p>© 2026 MODERN FURNITURE | All Rights Reserved</p>
+  </footer>
+
+  <script>
+    function validateForm() {
+      let name = document.getElementById("name").value;
+      let email = document.getElementById("email").value;
+      let Number = document.getElementById("Number").value;
+      let message = document.getElementById("message").value;
+      
+      if (name.length < 3) {
+        alert("Name must be at least 3 characters long.");
+        return false;
+      }
+      if (!email.includes("@")) {
+        alert("Please enter a valid email address.");
+        return false;
+      }
+        if (!Number.includes("<5")) {
+        alert("Please enter a Number address.");
+        return false;
+      }
+      if (message.length < 10) {
+        alert("Message must be at least 10 characters long.");
+        return false;
+      }
+
+      alert("Thank you, " + name + "! Your message has been sent.");
+      return false;
+    }
+  </script>
